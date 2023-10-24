@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURTIDORA/ESTRENO </title>
+
+    <script
+      src="https://kit.fontawesome.com/41bcea2ae3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body class="section">
+    
+    <header>
+      <div class="container__menu">
+        <div class="logo">
+          <img src="icons/LOGO- SURTIDORA ESTRENO.png" alt="" />
+        </div>
+        <div class="menu">
+          <i class="fas fa-bars" id="btn_menu"></i>
+          <div id="back_menu"></div>
+          <nav id="nav">
+            <img src="icons/LOGO- SURTIDORA ESTRENO.png" alt="" />
+
+            <ul>
+              <li><a href="./index.html" id="selected">Inicio</a></li>
+              <li><a href="./view/Mision.html">¡Conocenos!</a></li>
+              <!-- <li><a href="./view/Vision.html">Vision</a></li> -->
+              <li><a href="./View/Induccion.html">Induccion</a></li>
+              <li><a href="./view/Psicologia.html">Psicologia</a></li>
+              <li><a href="./View/trabajador.html">Conmemoracion</a></li> 
+              <li><a href="#" class="pruebas">Pruebas</a>
+              <ul class="ta">
+                <li class="tar"> <a href="./view/encuesta.html" target="_blank"> ENCUESTA</a></li>
+                <li class="tar"> <a href="./view/actatemario.html" target="_blank"> ACTA DE TEMARIO</a></li>
+                <li class="tar"> <a href="./view/Evaluacion.html" target="_blank"> EVALUACION</a></li>
+              </ul>
+            </li>            
+              <li><a href="./view/Contacto.html">Contactos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container__cover">
+        <div class="cover">
+         
+          <div class="text">
+            <h1 class="text2">Bienvenidos</h1>
+            <div class="text">    
+            <h2>     
+              <p >
+                El área de Gestión del Talento Humano de Surtidora y Estreno,
+                tiene como objeto perseguir la satisfacción de objetivos
+                organizacionales contando para ello una estructura y a través
+                del esfuerzo humano coordinado. El personal humano resulta vital
+                para el funcionamiento de la organización; es por lo cual que si
+                el elemento humano está dispuesto a proporcionar su esfuerzo, la
+                organización marchará; en caso contrario, se detendrá. De aquí a
+                que toda organización debe prestar primordial atención a su
+                personal, (talento humano).
+              </p>
+            </h2> 
+       
+          
+
+            <!-- <input type="button" value="Leer Más"> -->
+          </div>
+        </div>
+          <div class="svg">
+            <!-- <img src="images/developer_activity.svg" alt=""> -->
+            <img src="icons/bienvenidos-removebg-preview.png" alt="">
+          <!-- </div> 
+           <div id="container"> 
+            <img src="images/logo-magtimus-v2.3-1.png"  height="500"/>
+          </div>
+          <input  id="inImg" type="file">-->
+          <!-- <div>
+            <img src="images/logo-magtimus-v2.3-1.png" height="500">
+          </div>
+
+          <input id="input" type="file"> -->
+        
+        </div>
+       
+        </div> 
+       
+      </div>
+      
+      
+    </main>
+
+    
+    <footer class="footer">
+      <iframe class="iframe" src="./view/footer.html"></iframe>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+  <script>
+    var loadFile = function(event) {
+      var reader = new FileReader();
+      reader.onload = function(){
+        var output = document.getElementById('output');
+        output.src = reader.result;
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    };
+  </script>
+</html>

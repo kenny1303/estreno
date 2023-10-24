@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Mukta:wght@300&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+ <!-- Enlaza a la biblioteca Signature Pad desde una CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.6.0/signature_pad.min.js"></script>
+
+<link rel="stylesheet" href="../css/acta.css">  
+<title>ACTADETEMARIO</title>
+</head>
+<body>
+    
+    <div class="container">  <fieldset class="feo">
+        <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
+            <header class="header">
+                <div class="q">  <h1>INDUCCION</h1>  <h1>REINDUCCION</h1></div>
+        <p class="header__descripcion centrar centrar-texto">ACTA DE TEMARIO RECIBIDO EN LA INDUCCION Y/O REINDUCCION</p>
+        <p class="header__descripcion centrar centrar-texto"> CODIGO:  SST-F-22
+          
+          <br>  VERSION:  01
+            <br>FECHA ELABORACION:  10/02/2020
+        </p>
+      
+    </header>
+    <form class="formulario">
+      
+        <fieldset class="feo1">
+        <div class="campo">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="cargo">CARGO:</label>
+            <input type="text" id="cargo" name="cargo" placeholder="Escriba su cargo" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="cedula">LUGAR:</label>
+            <input type="text" id="lugar" name="Lugar" placeholder="Escriba el lugar" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="cedula">CAPACITADOR:</label>
+            <input type="text" id="capacitador" name="Capacitador" placeholder="Escriba el Capacitador" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="fecha">FECHA ELABORACION:</label>
+            <input type="date" id="fecha" name="fecha" placeholder="Escriba la fecha" required class="campo__input">
+        </div>
+    </fieldset>  
+    <br>
+    <p>Selecione una las casillas (SI o NO), los temas que recibió en la (re)inducción.</p>
+
+
+    <table id="miTabla">
+        <tr>
+            <th rowspan="2">Tema</th>
+            <th colspan="2">Recibi</th>
+        </tr>
+        <tr>
+            <th>Si</th>
+            <th>No</th>
+        </tr>
+        <tr>
+            <th>Generalidades De La Empresa</th>
+            <th><input type="radio" name="respuesta1" id="1" value="Si"></th>
+            <th><input type="radio" name="respuesta1" id="2" value="No"></th>
+        </tr>
+        <tr>
+            <th>Derechos y deberes de los trabajadores y empleador en SG-SST</th>
+            <th><input type="radio" name="respuesta2" id="3" value="Si"></th>
+            <th><input type="radio" name="respuesta2" id="4" value="No"></th>
+        </tr>
+        <tr>
+            <th>Reglamento Interno De Trabajo</th>
+            <th><input type="radio" name="respuesta3" id="5" value="Si"></th>
+            <th><input type="radio" name="respuesta3" id="6" value="No"></th>
+        </tr>
+        <tr>
+            <th>Políticas De Seguridad y Salud en el Trabajo</th>
+            <th><input type="radio" name="respuesta4" id="7" value="Si"></th>
+            <th><input type="radio" name="respuesta4" id="8" value="No"></th>
+        </tr>
+        <tr>
+            <th>Políticas De No Consumo de Alcohol Tabaco y Drogas</th>
+            <th><input type="radio" name="respuesta5" id="9" value="Si"></th>
+            <th><input type="radio" name="respuesta5" id="10" value="No"></th>
+        </tr>
+        <tr>
+            <th>Políticas de Prevención de  Acoso Laboral</th>
+            <th><input type="radio" name="respuesta6" id="11" value="Si"></th>
+            <th><input type="radio" name="respuesta6" id="12" value="No"></th>
+        </tr>
+        <tr>
+            <th>Estándar de Seguridad de como subir y bajas escaleras</th>
+            <th><input type="radio" name="respuesta7" id="13" value="Si"></th>
+            <th><input type="radio" name="respuesta7" id="14" value="No"></th>
+        </tr>
+        <tr>
+            <th>Reglamento De Higiene Y Seguridad Industrial</th>
+            <th><input type="radio" name="respuesta8" id="15" value="Si"></th>
+            <th><input type="radio" name="respuesta8" id="16" value="No"></th>
+        </tr>
+        <tr>
+            <th>Objetivos Y Metas En Seguridad Y Salud En El Trabajo</th>
+            <th><input type="radio" name="respuesta9" id="17" value="Si"></th>
+            <th><input type="radio" name="respuesta9" id="18" value="No"></th> 
+        </tr>
+        <tr>
+            <th>Factores De Riesgo Y Medidas De Control</th>
+            <th><input type="radio" name="respuesta10" id="19" value="Si"></th>
+            <th><input type="radio" name="respuesta10" id="20" value="No"></th>
+        </tr>
+        <tr>
+            <th>Procedimientos Seguros</th>
+            <th><input type="radio" name="respuesta11" id="21" value="Si"></th>
+            <th><input type="radio" name="respuesta11" id="22" value="No"></th>
+        </tr>
+        <tr>
+            <th>Deberes Y Derechos De Los Afiliados a la ARL</th>
+            <th><input type="radio" name="respuesta12" id="23" value="Si"></th>
+            <th><input type="radio" name="respuesta12" id="24" value="No"></th>
+        </tr>
+        <tr>
+            <th>Reporte De Accidente E Incidente De Trabajo; Enfermedad Laboral </th>
+            <th><input type="radio" name="respuesta13" id="25" value="Si"></th>
+            <th><input type="radio" name="respuesta13" id="26" value="No"></th>
+        </tr>
+        <tr>
+            <th>Comité Paritario De Seguridad y Salud En El Trabajo</th>
+            <th><input type="radio" name="respuesta14" id="27" value="Si"></th>
+            <th><input type="radio" name="respuesta14" id="28" value="No"></th>
+        </tr>
+        <tr>
+            <th>Comité de convivencia laboral</th>
+            <th><input type="radio" name="respuesta15" id="29" value="Si"></th>
+            <th><input type="radio" name="respuesta15" id="30" value="No"></th>
+        </tr>
+        <tr>
+            <th>Brigadas de emergencias</th>
+            <th><input type="radio" name="respuesta16" id="31" value="Si"></th>
+            <th><input type="radio" name="respuesta16" id="32" value="No"></th>
+        </tr>
+        <tr>
+            <th>Elementos De Protección Personal</th>
+            <th><input type="radio" name="respuesta17" id="33" value="Si"></th>
+            <th><input type="radio" name="respuesta17" id="34" value="No"></th>
+        </tr>
+        <tr>
+            <th> Plan De Emergencia</th>
+            <th><input type="radio" name="respuesta18" id="35" value="Si"></th>
+            <th><input type="radio" name="respuesta18" id="36" value="No"></th>
+        </tr>
+    </table>
+<br>
+
+<p class="p1">Yo, <input type="text" id="yo" name="yo" required class="xd"> identificado con C.C. No <input type="text" id="CC" name="CC" required class="xd"> de <input type="text" id="de" name="de" required class="xd"> trabajador de la empresa ALIANZA ESTRENO S.A.S. desempeño el cargo de <input type="text" id="cargo" required class="xd"  > declaro que he recibido por parte de la empresa la inducción/reinducción correspondiente a la descripción de la empresa y el Sistema de Gestión en Seguridad y Salud en el Trabajo, la cual he recibido, comprendido y me comprometo a cumplir las normas internas de la organización</p>
+
+
+<div class="campo___input">
+        <button class="btn" id="" onclick="procesarDatos()">ENVIAR</button>
+    </div>
+
+
+</fieldset>
+
+    </form>
+</div>
+</fieldset>
+<script src="../js/encuesta.js"></script>
+
+</body>
+</html>

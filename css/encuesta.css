@@ -1,0 +1,259 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+*::before,*,*::after{
+    box-sizing: border-box;
+}
+body{
+    /* background:  #fab2b2; */
+    background-size: cover;
+    color:black;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+
+.centrar-texto{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    margin: 3.1rem auto 0 auto;
+    width: 600px;
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+
+}
+h1,p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+h1{
+    font-weight: 400;
+    line-height: 1.2;
+}
+.header__descripcion{
+    font-weight: bold;
+
+}
+
+.formulario{
+    /* background-color: #F6615D; */
+    padding: 2.5rem 0.62rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color:#000000;
+}
+
+.campo{
+    margin: 0 auto 1.25rem auto;
+
+}
+
+.campo__input{
+    display: block;
+    width: 100%;
+    height: 2.3rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+input{
+    border: none;
+}
+
+
+label{
+    display: flex;
+    align-items: center;
+    font-size: 1.12rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold
+}
+.label1{
+  display: block;
+  padding: 7px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+  border: 1px dashed #ccc;
+  margin-bottom: 3px;
+}
+.label1:hover{
+  background: #cec0fc;
+}
+.campo__textarea{
+  /* height: 20px; */
+  width: 300px;
+  outline: none;
+  resize: none;
+  padding: 10px;
+  border: 1px solid black;
+  scrollbar-width: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+.btn{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background-color: #cec0fc;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn:hover{
+  background: #000;
+  color: #fff;
+}
+img{ /*width: 100px; */
+    height: 100px;
+
+}
+/* Estilo del botón */
+.campo__input {
+    flex: 1;
+    text-align: top;
+    background: none;
+    border: none;
+    outline: none;
+    /* width: 350px; */
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    border: 2px solid black;
+
+}
+  .campo___input {
+    /* grid-column: span 4; Ocupa el espacio de las 4 columnas */
+    text-align: center;
+
+  }
+
+
+  /* Cambiar el color de fondo y el color del texto */
+  #fecha {
+    /* background-color: #f2f2f2; */
+    color: black;
+  }
+
+  /* Agregar bordes redondeados */
+  #fecha {
+    border-radius: 5px;
+  }
+
+  /* Cambiar el color del borde cuando se enfoca */
+  #fecha:focus {
+    border-color: black;
+  }
+
+  /* Cambiar el estilo del cursor al pasar el mouse sobre el input */
+  #fecha:hover {
+    cursor: pointer;
+  }
+
+  /* Cambiar el estilo del calendario desplegable */
+  /* Esto puede variar según el navegador, por lo que es posible que debas ajustarlo */
+  /* #fecha::-webkit-calendar-picker-indicator {
+    background-color: transparent;
+    color: #007bff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+   */
+   /* Cambiar el color del calendario desplegable en navegadores WebKit */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color:#cec0fc;/* Cambiar el color de fondo */
+    color: white; /* Cambiar el color del texto */
+    padding: 0.25rem; /* Añadir un poco de espacio alrededor del icono */
+    border: 1px solid #fbedca; /* Cambiar el borde */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+  }
+
+
+
+  /* Estilos para la imagen responsive */
+  .imagen-responsive {
+    max-width: 100%; /* El contenedor se ajusta al ancho de la ventana */
+    height: auto; /* La altura se ajusta automáticamente */
+    text-align: center; /* Centra la imagen horizontalmente en el contenedor */
+    width: 250px;
+  }
+
+  .imagen-responsive {
+    max-width: 100%; /* La imagen se ajusta al ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente */
+    display: block; /* Elimina cualquier espacio en blanco debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente en el contenedor */
+  }
+
+.feo{
+  border-color: blue;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  width: 800px;
+}
+
+.feo1{
+  border-color:black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+::placeholder{
+  color:black;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+ /* Estilo para los textareas */
+  .campo__textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid bla;
+  }
+
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th, td{
+    padding: 10px;
+}
+
+
+
+
+

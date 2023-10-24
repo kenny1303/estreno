@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Mukta:wght@300&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/acta.css">  
+<title>EVALUACION</title>
+</head>
+<body>
+    
+    <div class="container">  <fieldset class="feo2">
+        <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
+            <header class="header">
+                <div class="q">  
+                    <h1>INDUCCION</h1>  <h1>REINDUCCION</h1></div>
+        <p class="header__descripcion centrar centrar-texto">EVALUACION INDUCCION Y/O REINDUCCION</p>
+        <p class="header__descripcion centrar centrar-texto"> CODIGO:  SST-F-11
+          <br>  VERSION:  01
+         <br>   FECHA ELABORACION:  10/02/2020
+        </p>
+      
+    </header>
+    <form class="formulario">
+      <fieldset class="feo1">
+        <div class="campo">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="cargo">CARGO:</label>
+            <input type="text" id="cargo" name="cargo" placeholder="Escriba su cargo" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="Lugar">LUGAR:</label>
+            <input type="text" id="lugar" name="Lugar" placeholder="Escriba el lugar" required class="campo__input">
+        </div>
+        <!-- <div class="campo">
+            <label for="cedula">CALIFICACION: </label>
+            <input type="number" id="calificacion" name="calificacion" placeholder="Califique" required class="campo__input">
+        </div> -->
+        <div class="campo">
+            <label for="fecha">FECHA ELABORACION:</label>
+            <input type="date" id="fecha" name="fecha" placeholder="Escriba la fecha" required class="campo__input">
+        </div>
+    </fieldset>
+        <div class="container">
+            <section id="p0" >
+                <p>Se prueba la evaluación respondiendo de manera correcta 6/10 de las preguntas, si no aprueba, debe realizarse explicarse de nuevo los temas en los que tuvo baja calificación y seguidamente volver a hacer la evaluación. </p>
+                
+                <h3>SELECCIONE CON UNA X LA RESPUESTA CORRECTA </h3>
+                
+                <h3>
+                    1.	Una de las políticas de   VARIEDADES LA MANO DE DIOS S.A.S es: 
+                </h3>
+                <label for="selecionar" class="label1">
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)" id="selecionar">	Misión, visión, Reglamento interno de trabajo.
+                </label>
+                <label for="selecionar1" class="label1">
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)" id="selecionar1">		Prestaciones y servicios.
+                </label>
+                <label for="selecionar2" class="label1">
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)" id="selecionar2">		Política de Seguridad y Salud en el Trabajo.
+                </label>
+                <label for="selecionar3" class="label1">
+                    <input type="radio" value="4" name="p0" onclick="respuesta(0,this)" id="selecionar3">			La calidad es un compromiso de todos.
+                </label>
+            </section>
+
+            <section id="p1">
+                <h3>
+                    2.	Dentro de los factores de riesgo a los cuales están expuestos los trabajadores de VARIEDADES LA MANO DE DIOS S.A.S
+                </h3>
+                <label for="q" class="label1">
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)" id="q">		Biológico, Físicos.
+                </label>
+                <label for="q1" class="label1">
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)" id="q1">			Químico, Psicosocial, Biomecánicos.
+                </label>
+                <label for="q2" class="label1">
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)" id="q2">			Condiciones de seguridad.
+                </label>
+                <label for="q3" class="label1">
+                    <input type="radio" value="4" name="p1" onclick="respuesta(1,this)" id="q3">				Todas las anteriores.
+                </label>
+            </section>
+
+            <section id="p2">
+                <h3>
+                    3.	¿Qué es el COPASST y que función tiene?
+                </h3>
+                <label for="q4" class="label1">
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)" id="q4">		Comité de normas para la salud ocupacional; crea leyes para el bienestar de los trabajadores.
+                </label>
+                <label for="q5" class="label1">
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)" id="q5">		Comité evaluador de la empresa; Evalúa las competencias de los trabajadores.
+                </label>
+                <label for="q6" class="label1">
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)" id="q6">	    Comité de investigación de accidentes: investigación de accidentes.
+                </label>
+                <label for="q7" class="label1">
+                    <input type="radio" value="4" name="p2" onclick="respuesta(2,this)" id="q7">		Comité Paritario de Seguridad y Salud en el trabajado; Sirve como organismo de coordinación entre el empleador y los trabajadores en la solución de problemas relativos a Salud en el trabajo.
+                </label>
+            </section>
+
+
+            <section id="p3">
+                <h3>
+                    4.	Son obligaciones de los trabajadores afiliados al Sistema de Riesgos Laborales:
+                </h3>
+                <label for="q8" class="label1">
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)" id="q8">		Procurar el cuidado integral de su salud.
+                </label>
+                <label for="q9" class="label1">
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)" id="q9">		Suministrar información clara, veraz y completa sobre su estado de salud.
+                </label>
+                <label for="q10" class="label1">
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)" id="q10">		Colaborar y velar por el cumplimiento de las obligaciones contraídas por los empleadores.
+                </label>
+                <label for="q11" class="label1">
+                    <input type="radio" value="4" name="p3" onclick="respuesta(3,this)" id="q11">		Cumplir las normas, reglamentos e instrucciones del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST de la empresa.
+                </label>
+                <label for="q12" class="label1">
+                    <input type="radio" value="5" name="p3" onclick="respuesta(3,this)" id="q12">		Todas las anteriores.
+                </label>
+            </section>
+
+
+            <section id="p4">
+                <h3>
+                    5.	La administradora de riesgos laborales (ARL) es escogida por:
+                </h3>
+                <label for="q13" class="label1">
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)" id="q13">		El trabajador.
+                </label>
+                <label for="q14" class="label1">
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)" id="q14">			El empleador.
+                </label>
+            </section>
+
+            <h3>SELECCIONE FALSO (F)  O  VERDADERO (V) SEGÚN CORRESPONDA </h3>
+             
+            <section>
+                <h3 >
+                    6.	El comité de convivencia laboral es un método preventivo de acoso laboral que contribuye a proteger a los trabajadores contra los riesgos psicosociales que afectan la salud en los lugares de trabajo. 
+                </h3>
+                <label for="q15" class="label1">
+                    <input type="radio" value="1" name="p5" onclick="respuesta(5,this)" id="q15">		FALSO
+                </label>
+                <label for="q16" class="label1">
+                    <input type="radio" value="2" name="p5" onclick="respuesta(5,this)" id="q16">			VERDADERO
+                </label>
+            </section>
+            <section>
+                <h3>
+                    7.	Se considera accidente de trabajo el que se produzca durante el traslado de los trabajadores o contratistas desde su residencia a los lugares de trabajo o viceversa, cuando el transporte lo suministre el empleador y Es enfermedad laboral la contraída como resultado de la exposición a factores de riesgo inherentes a la actividad laboral o del medio en el que el trabajador se ha visto obligado a trabajar.
+                </h3>
+                <label for="q17" class="label1">
+                    <input type="radio" value="1" name="p6" onclick="respuesta(5,this)" id="q17">		FALSO
+                </label>
+                <label for="q18" class="label1">
+                    <input type="radio" value="2" name="p6" onclick="respuesta(5,this)" id="q18">			VERDADERO
+                </label>
+            </section>
+            <section>
+                <h3>
+                    8.	No es obligación del trabajador utilizar el equipo de protección personal proporcionado por el empleador. 
+                </h3>
+                <label for="q19" class="label1">
+                    <input type="radio" value="1" name="p7" onclick="respuesta(5,this)" id="q19">		FALSO
+                </label>
+                <label for="q20" class="label1">
+                    <input type="radio" value="2" name="p7" onclick="respuesta(5,this)" id="q20">			VERDADERO
+                </label>
+            </section>
+            <section>
+                <h3>
+                    9.	En caso de emergencia es importante que usted identifique las rutas de evacuación y salidas de emergencia, e identifique  quienes hacen parte de brigadas de emergencia.
+                </h3>
+                <label for="q21" class="label1">
+                    <input type="radio" value="1" name="p8" onclick="respuesta(5,this)" id="q21">		FALSO
+                </label>
+                <label for="q22" class="label1">
+                    <input type="radio" value="2" name="p8" onclick="respuesta(5,this)" id="q22">			VERDADERO
+                </label>
+            </section>
+            <section>
+                <h3>
+                    10. No es un deber de la empresa afiliar a los trabajadores a la administradora de riesgos laborales, ARL.
+                </h3>
+                <label for="q23" class="label1">
+                    <input type="radio" value="1" name="p9" onclick="respuesta(5,this)" id="q23">		FALSO
+                </label>
+                <label for="q24" class="label1">
+                    <input type="radio" value="2" name="p9" onclick="respuesta(5,this)" id="q24">			VERDADERO
+                </label>
+            </section>
+
+<button  type="button" onclick="corregir()">RESULTADO</button>
+<h2>Cantidad acertadas: <span id="resultado"></span></h2>
+
+    <button   type="button"  onclick="ocultarYRecargar()">VOLVER A REALIZAR LA PRUEBA</button>
+
+        </div>
+<script src="../js/evaluacion.js"></script>
+
+</body>
+</html>

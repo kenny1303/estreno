@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Mukta:wght@300&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+ <!-- Enlaza a la biblioteca Signature Pad desde una CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.6.0/signature_pad.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" href="../css/acta.css">  
+<title>PROCEDIMIENTO TALENTO HUMANO</title>
+</head>
+<body>
+    
+    <div class="container">  <fieldset class="feo">
+        <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
+            <header class="header">
+                <div class="">  <h1>PROCEDIMIENTO TALENTO HUMANO</h1>  
+        <p class="header__descripcion centrar centrar-texto">2023</p>
+        <p class="header__descripcion centrar centrar-texto"> FORMATO ENCUESTA NECESIDADES DE FORMACION EN HABILIDADES BLANDAS         
+        </p>
+      
+    </header>
+    <form class="formulario">
+      
+        <fieldset class="feo1">
+        <div class="campo">
+            <label for="nombre">NOMBRE JEFE INMEDIATO-LIDER-COORDINADOR:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="campo__input">
+        </div>
+        <div class="campo">
+            <label for="fecha">FECHA ELABORACION:</label>
+            <input type="date" id="fecha" name="fecha" placeholder="Escriba la fecha" required class="campo__input">
+        </div>
+    </fieldset>  
+    <br>
+    <p>A continuacion encontrara un abanico de opciones con topicos relacionados al crecimiento personal, del ser, igualmente para el equipo de trabajo. Debe seleccionar el de su interes para implementarlo
+        dentro del programa de crecimiento y desarrollo de la organizacion, para el año 2023, favor selecionar el tema de necesidad o interes:
+    </p>
+
+
+    <table id="miTabla">
+        <tr>
+            <th rowspan="2">TEMAS SUGERIDOS</th>
+            <th colspan="2">Recibi</th>
+        </tr>
+        <tr>
+            <th>Si</th>
+            <th>No</th>
+        </tr>
+        <tr>
+            <th>Inteligencia Emocional</th>
+            <th><input type="radio" name="respuesta1" id="1" value="Si"></th>
+            <th><input type="radio" name="respuesta1" id="2" value="No"></th>
+        </tr>
+        <tr>
+            <th>Proyecto de Vida y Bienestar Personal-Familiar</th>
+            <th><input type="radio" name="respuesta2" id="3" value="Si"></th>
+            <th><input type="radio" name="respuesta2" id="4" value="No"></th>
+        </tr>
+        <tr>
+            <th>Inteligencia Financiera</th>
+            <th><input type="radio" name="respuesta3" id="5" value="Si"></th>
+            <th><input type="radio" name="respuesta3" id="6" value="No"></th>
+        </tr>
+        <tr>
+            <th>Liderazgo y Empoderamiento</th>
+            <th><input type="radio" name="respuesta4" id="7" value="Si"></th>
+            <th><input type="radio" name="respuesta4" id="8" value="No"></th>
+        </tr>
+        <tr>
+            <th>Trabajo en Equipo y Solidaridad</th>
+            <th><input type="radio" name="respuesta5" id="9" value="Si"></th>
+            <th><input type="radio" name="respuesta5" id="10" value="No"></th>
+        </tr>
+        <tr>
+            <th>Comunicacion Asertiva</th>
+            <th><input type="radio" name="respuesta6" id="11" value="Si"></th>
+            <th><input type="radio" name="respuesta6" id="12" value="No"></th>
+        </tr>
+        <tr>
+            <th>Atencion al Cliente Interno y externo</th>
+            <th><input type="radio" name="respuesta7" id="13" value="Si"></th>
+            <th><input type="radio" name="respuesta7" id="14" value="No"></th>
+        </tr>
+        <tr>
+            <th>Manejo del Tiempo</th>
+            <th><input type="radio" name="respuesta8" id="15" value="Si"></th>
+            <th><input type="radio" name="respuesta8" id="16" value="No"></th>
+        </tr>
+        <tr>
+            <th>Autoestima y Resilencia</th>
+            <th><input type="radio" name="respuesta9" id="17" value="Si"></th>
+            <th><input type="radio" name="respuesta9" id="18" value="No"></th> 
+        </tr>
+        <tr>
+            <th>Autocuidado Mental - Cuidado de la Salud Mental</th>
+            <th><input type="radio" name="respuesta10" id="19" value="Si"></th>
+            <th><input type="radio" name="respuesta10" id="20" value="No"></th>
+        </tr>
+        <tr>
+            <th>Relaciones Interpersonales</th>
+            <th><input type="radio" name="respuesta11" id="21" value="Si"></th>
+            <th><input type="radio" name="respuesta11" id="22" value="No"></th>
+        </tr>
+        <tr>
+            <th>Manejo de Conflictos</th>
+            <th><input type="radio" name="respuesta12" id="23" value="Si"></th>
+            <th><input type="radio" name="respuesta12" id="24" value="No"></th>
+        </tr>
+        <tr>
+            <th>Gestion del Cambio </th>
+            <th><input type="radio" name="respuesta13" id="25" value="Si"></th>
+            <th><input type="radio" name="respuesta13" id="26" value="No"></th>
+        </tr>
+        <tr>
+            <th>Cultura de la Felicidad</th>
+            <th><input type="radio" name="respuesta14" id="27" value="Si"></th>
+            <th><input type="radio" name="respuesta14" id="28" value="No"></th>
+        </tr>
+        <tr>
+            <th>Innovacion</th>
+            <th><input type="radio" name="respuesta15" id="29" value="Si"></th>
+            <th><input type="radio" name="respuesta15" id="30" value="No"></th>
+        </tr>
+        <tr>
+            <th>Manejo de Estres Laboral</th>
+            <th><input type="radio" name="respuesta16" id="31" value="Si"></th>
+            <th><input type="radio" name="respuesta16" id="32" value="No"></th>
+        </tr>
+        <tr>
+            <th>El Secreto para Trabajar Mejor y Feliz</th>
+            <th><input type="radio" name="respuesta17" id="33" value="Si"></th>
+            <th><input type="radio" name="respuesta17" id="34" value="No"></th>
+        </tr>
+        <tr>
+            <th>¿Como alcanzar el equilibrio entre vida y trabajo?</th>
+            <th><input type="radio" name="respuesta18" id="35" value="Si"></th>
+            <th><input type="radio" name="respuesta18" id="36" value="No"></th>
+        </tr>
+        <tr>
+            <th>Motivacion</th>
+            <th><input type="radio" name="respuesta19" id="37" value="Si"></th>
+            <th><input type="radio" name="respuesta19" id="38" value="No"></th>
+        </tr>
+        <tr>
+            <th>Persuasion</th>
+            <th><input type="radio" name="respuesta20" id="39" value="Si"></th>
+            <th><input type="radio" name="respuesta20" id="40" value="No"></th>
+        </tr>
+        <tr>
+            <th>Adaptabilidad a los Cambios</th>
+            <th><input type="radio" name="respuesta21" id="41" value="Si"></th>
+            <th><input type="radio" name="respuesta21" id="42" value="No"></th>
+        </tr>
+        <tr>
+            <th>Tener la voluntad de aprender</th>
+            <th><input type="radio" name="respuesta22" id="43" value="Si"></th>
+            <th><input type="radio" name="respuesta22" id="44" value="No"></th>
+        </tr>
+        <tr>
+            <th>Manejo de Objeciones</th>
+            <th><input type="radio" name="respuesta23" id="45" value="Si"></th>
+            <th><input type="radio" name="respuesta23" id="46" value="No"></th>
+        </tr>
+        <tr>
+            <th>Escuchar a los Clientes</th>
+            <th><input type="radio" name="respuesta24" id="47" value="Si"></th>
+            <th><input type="radio" name="respuesta24" id="48" value="No"></th>
+        </tr>
+    </table>
+<br>
+
+<!-- <p class="p1">Yo, <input type="text" id="yo" name="yo" required class="xd"> identificado con C.C. No <input type="text" id="CC" name="CC" required class="xd"> de <input type="text" id="de" name="de" required class="xd"> trabajador de la empresa ALIANZA ESTRENO S.A.S. desempeño el cargo de <input type="text" id="cargo" required class="xd"  > declaro que he recibido por parte de la empresa la inducción/reinducción correspondiente a la descripción de la empresa y el Sistema de Gestión en Seguridad y Salud en el Trabajo, la cual he recibido, comprendido y me comprometo a cumplir las normas internas de la organización</p> -->
+<p>Dentro de Tu Equipo, has identificado si algun colaborador requiere de acompañamiento o Asesoria Psicologica, favor indicar el numero de trabajadores que necesitan el abordaje:</p>
+<br>
+<p>SUGERENCIAS:</p>
+<textarea name="sugerencias" class="campo__textarea" id="sugerencias" rows="1"></textarea>
+<br>
+<br>
+<div class="campo___input">
+        <button class="btn" id="" onclick="procesarDatos()">ENVIAR</button>
+    </div>
+
+
+</fieldset>
+
+    </form>
+</div>
+</fieldset>
+<script src="../js/encuesta.js"></script>
+
+</body>
+</html>
