@@ -128,7 +128,7 @@ nav ul li ul{
     background: #fff;
     position: absolute;
     top: 210px;
-    left: 870px;
+    /* left: 870px; */
     padding: 14px 0px;
     visibility: hidden;
     opacity: 0;
