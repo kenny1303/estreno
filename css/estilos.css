@@ -238,11 +238,16 @@ nav ul li ul li a:hover{
     background-position: right;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 40px;
-    
-  
-    
+    padding: 40px;  
 }
+.video{
+    width: 540px;
+    animation: move-vector 4s linear infinite;
+    -webkit-animation: move-vector 4s linear infinite;
+    margin: 30%;
+
+}
+
 
 .cover{
     max-width: 1200px;
@@ -598,3 +603,4 @@ a{
   .pruebas {
     position: relative;
   }
+

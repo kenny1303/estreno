@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     background: url(../img/pexels-eberhard-grossgasteiger-1421903.jpg);
     background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .box {
     position: relative;
@@ -37,4 +38,72 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/*---------------TABLA DESKTOP-----------*/
+
+.tabla-desktop{
+    width: 100%;
+    border-collapse: collapse ;
+
+}
+
+.tabla-desktop,tr ,th {
+    background-color: #303030;
+    color: #fff;
+    border: 1px solid #909090;
+    padding: 5px;
+    text-align: left;
+}
+
+.tabla-desktop, tr, th{
+    border: 1px solid #909090;
+    padding: 5px;
+}
+
+.tabla-desktop, tr:nth-of-type(add){
+    background-color: #e6e6e6;
+}
+
+/*-----------TABLA MOBIL--------------*/
+
+.tabla-mobile{
+    display: none;
+    width: 100%;
+}
+
+.tabla-mobile .fila .columna{
+    display: flex;
+}
+
+.tabla-mobile .fila .columna .header, .tabla-mobile .fila .columna .contenido {
+    border: 1px solid #909090;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.tabla-mobile .fila .columna .header{
+    width: 50%;
+    background-color: rgb(139, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-mobile .fila .columna .contenido{
+    width: 50%;
+    background-color: rgb(139, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px){
+    .tabla-mobile{
+        display: block;
+    }
+
+    
+    .tabla-desktop{
+        display: none;
+    }
 }

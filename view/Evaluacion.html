@@ -27,15 +27,15 @@
       <fieldset class="feo1">
         <div class="campo">
             <label for="nombre">NOMBRE:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="campo__input">
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="campo__input" pattern="[a-z]*">
         </div>
         <div class="campo">
             <label for="cargo">CARGO:</label>
-            <input type="text" id="cargo" name="cargo" placeholder="Escriba su cargo" required class="campo__input">
+            <input type="text" id="cargo" name="cargo" placeholder="Escriba su cargo" required class="campo__input" pattern="[a-z]*">
         </div>
         <div class="campo">
             <label for="Lugar">LUGAR:</label>
-            <input type="text" id="lugar" name="Lugar" placeholder="Escriba el lugar" required class="campo__input">
+            <input type="text" id="lugar" name="Lugar" placeholder="Escriba el lugar" required class="campo__input" pattern="[a-z]*">
         </div>
         <!-- <div class="campo">
             <label for="cedula">CALIFICACION: </label>
@@ -201,7 +201,7 @@
 <button  type="button" onclick="corregir()">RESULTADO</button>
 <h2>Cantidad acertadas: <span id="resultado"></span></h2>
 
-    <button   type="button"  onclick="ocultarYRecargar()">VOLVER A REALIZAR LA PRUEBA</button>
+    <!-- <button   type="button"  onclick="ocultarYRecargar()">VOLVER A REALIZAR LA PRUEBA</button> -->
 
         </div>
 <script src="../js/evaluacion.js"></script>
