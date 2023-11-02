@@ -1,7 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 *::before,*,*::after{
     box-sizing: border-box;
 }
@@ -35,40 +32,44 @@ body{
 h1{
     font-weight: 400;
     line-height: 1.2;
-}
-   
+}   
+
 .btn{
-  width: 80%;
-  display: block;
-  margin: auto;
-  padding: 10px;
-  background-color: #cec0fc;
-  border: none;
-  cursor: pointer;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #cec0fc;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .btn:hover{
-  background: #000;
-  color: #fff;
+    background: #000;
+    color: #fff;
 }
 img{ /*width: 100px; */
     height: 100px;
 
 }
 .feo{
-  border-color: blue;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-  /* width: 800px; */
+    border-color: blue;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 50px;
 }
 
+.to{
+    width: 500px;
+    height: 300px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
 
 
