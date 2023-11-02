@@ -10,7 +10,7 @@
     <title>SURTIDORA/ESTRENO</title>
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -38,7 +38,7 @@
                                 <li > <a href="../view/encuesta.html" target="_blank"> ENCUESTA</a></li>
                                 <li > <a href="../view/actatemario.html" target="_blank"> ACTA DE TEMARIO</a></li>
                                 <li > <a href="../view/Evaluacion.html" target="_blank"> EVALUACION</a></li>
-                  <li ><a href="../view/Procedimiento.html" target="_blank">PROCEDIMIENTO TALENTO HUMANO</a></li>
+                        <li ><a href="../view/Procedimiento.html" target="_blank">PROCEDIMIENTO TALENTO HUMANO</a></li>
 
                             </ul>
                         </li>   
@@ -54,12 +54,12 @@
         <section id="sec1">
         <div class="container__cover">
             <div class="cover">
-                <div class="text">
+                <div class="text" data-aos="fade-right">
                 <h1 class="text2">Misión</h1>
                 <div class="text">
                 
 
-                   <h2> <p>Satisfacer las necesidades de nuestros clientes con una atención personalizada y profesional que lo lleve a una emocionante experiencia de compras en lo referente a surtido, disponibilidad, calidad de la mercancía, eventos 
+                    <h2> <p>Satisfacer las necesidades de nuestros clientes con una atención personalizada y profesional que lo lleve a una emocionante experiencia de compras en lo referente a surtido, disponibilidad, calidad de la mercancía, eventos 
                         promocionales y un ambiente afable que marquen la diferencia; sostenidos por la ética y responsabilidad social como compromiso hacia la comunidad con la cual mantenemos actividades comerciales.</p>
                     </h2>
                     <br>
@@ -67,7 +67,7 @@
                     <!-- <input type="button" value="Leer Más"> -->
                 </div>
             </div>
-                <div class="svg">
+                <div class="svg"  data-aos="fade-right">
                     <img src="../icons/ra-removebg-preview.png" alt="">
                 </div>
             </div>
@@ -78,43 +78,41 @@
     <section id="sec2">
         <div class="container__cover">
             <div class="cover">
-                <div class="text">
+                <div class="text"data-aos="fade-left">
                 <h1 class="text2">Visión</h1>
                 <div class="text">
                 
 
-                   <h2> <p>Nuestra empresa busca trascender en el mercado a través de una constante innovación en el concepto de la moda, ser reconocida como  líder en atención y servicio al cliente y por el sello de excelencia en la calidad de los productos que ofrece, posicionándose y manteniéndose como uno de los mejores almacenes de moda y estilo del país.</p>
-                   
+                    <h2> <p>Nuestra empresa busca trascender en el mercado a través de una constante innovación en el concepto de la moda, ser reconocida como  líder en atención y servicio al cliente y por el sello de excelencia en la calidad de los productos que ofrece, posicionándose y manteniéndose como uno de los mejores almacenes de moda y estilo del país.</p>
                     </h2>
                     <br>
                     <a class="btn" href="#sec3" > Siguiente</a>
                     <!-- <input type="button" value="Leer Más"> -->
                 </div>
             </div>
-                <div class="svg">
+                <div class="svg" data-aos="fade-left">
                     <img src="../icons/pa-removebg-preview.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-      
     <section id="sec3">
         <div class="container__cover">
             <div class="cover">
-                <div class="text">
+                <div class="text"data-aos="fade-right">
                 <h1 class="text2">Objetivo</h1>
                 <div class="text">
                 
 
-                   <h2> <p>Ofrecer un servicio de calidad, brindando asesoría y solución a las necesidades de innovación en la moda y estilo de  vestir, logrando el crecimiento sostenido en el mercado nacional, el reconocimiento y la preferencia de los clientes. </p>
+                    <h2> <p>Ofrecer un servicio de calidad, brindando asesoría y solución a las necesidades de innovación en la moda y estilo de  vestir, logrando el crecimiento sostenido en el mercado nacional, el reconocimiento y la preferencia de los clientes. </p>
                     </h2>
                     <br>
                     <a class="btn" href="#sec4" > Siguiente</a>
                     <!-- <input type="button" value="Leer Más"> -->
                 </div>
             </div>
-                <div class="svg">
+                <div class="svg" data-aos="fade-left">
                     <img src="../images/undraw_warning_re_eoyh.svg" alt="">
                 </div>
             </div>
@@ -124,11 +122,11 @@
     <section id="sec4">
         <div class="container__cover">
             <div class="cover">
-                <div class="text">
+                <div class="text"data-aos="zoom-in">
                 <h1 class="text2">Valores de 
                     <br> la Empresa:</h1>
                 <div class="text">
-                   <h2> <p>1. Responsabilidad.
+                    <h2> <p>1. Responsabilidad.
                     <br>
                     2.	Lealtad.
                     <br>
@@ -158,18 +156,24 @@
                 </div>
             </div>
 
-                <div class="svg">
+                <div class="svg" data-aos="zoom-in">
                     <img src="../icons/fa-removebg-preview.png" alt="">
                 </div>
             </div>
         </div>
     </section>
     </main>
-   
     <footer class="footer"> 
         <iframe class="iframe" src="../view/footer.html"></iframe>
     </footer>
     <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+		AOS.init({
+			duration: 2000,
+			one: true
+		});
+	</script>
 </body>
 
 </html>

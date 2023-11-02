@@ -10,7 +10,7 @@
 <title>EVALUACION</title>
 </head>
 <body>
-    
+    <!-- aqui inicia el formulario con elfieldset -->
     <div class="container">  <fieldset class="feo2">
         <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
             <header class="header">
@@ -18,13 +18,13 @@
                     <h1>INDUCCION</h1>  <h1>REINDUCCION</h1></div>
         <p class="header__descripcion centrar centrar-texto">EVALUACION INDUCCION Y/O REINDUCCION</p>
         <p class="header__descripcion centrar centrar-texto"> CODIGO:  SST-F-11
-          <br>  VERSION:  01
-         <br>   FECHA ELABORACION:  10/02/2020
-        </p>
-      
+        <br>  VERSION:  01
+        <br>   FECHA ELABORACION:  10/02/2020
+        </p>      
     </header>
+    <!-- los primeros inputs -->
     <form class="formulario">
-      <fieldset class="feo1">
+    <fieldset class="feo1">
         <div class="campo">
             <label for="nombre">NOMBRE:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="campo__input" pattern="[a-z]*">
@@ -46,6 +46,7 @@
             <input type="date" id="fecha" name="fecha" placeholder="Escriba la fecha" required class="campo__input">
         </div>
     </fieldset>
+    <!-- empiezan las preguntas con los inpust type radio -->
         <div class="container">
             <section id="p0" >
                 <p>Se prueba la evaluación respondiendo de manera correcta 6/10 de las preguntas, si no aprueba, debe realizarse explicarse de nuevo los temas en los que tuvo baja calificación y seguidamente volver a hacer la evaluación. </p>
@@ -140,8 +141,7 @@
                 </label>
             </section>
 
-            <h3>SELECCIONE FALSO (F)  O  VERDADERO (V) SEGÚN CORRESPONDA </h3>
-             
+            <h3>SELECCIONE FALSO (F)  O  VERDADERO (V) SEGÚN CORRESPONDA </h3>             
             <section>
                 <h3 >
                     6.	El comité de convivencia laboral es un método preventivo de acoso laboral que contribuye a proteger a los trabajadores contra los riesgos psicosociales que afectan la salud en los lugares de trabajo. 
@@ -198,6 +198,7 @@
                 </label>
             </section>
 
+    <!-- el boton que envia el formulario y  muestra el numero de respuestas correctas q tuviste -->
 <button  type="button" onclick="corregir()">RESULTADO</button>
 <h2>Cantidad acertadas: <span id="resultado"></span></h2>
 

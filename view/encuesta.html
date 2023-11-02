@@ -6,23 +6,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Mukta:wght@300&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/encuesta.css"> 
-  <link rel="stylesheet" href="sweetalert2.min.css"> 
+<link rel="stylesheet" href="../css/encuesta.css"> 
+<link rel="stylesheet" href="sweetalert2.min.css"> 
 <title>ENCUESTA</title>
 </head>
 <body>
-    
+    <!-- aqui empieza el formulario con el fieldset -->
     <div class="container">  <fieldset class="feo">
         <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
             <header class="header">
-      <h1 class="centrar-texto" >ENCUESTA</h1>   
+        <h1 class="centrar-texto" >ENCUESTA</h1>   
         <p class="header__descripcion centrar centrar-texto">ENCUESTA DE PERFIL SOCIODEMOGRAFICO Y MORBILIDAD SENTIDA</p>
         <p class="header__descripcion centrar centrar-texto"> CODIGO:  SST-F-22
-          <br>  VERSION:  01
-         <br>   FECHA ELABORACION:  10/02/2020
-        </p>
-      
+            <br>  VERSION:  01
+            <br>   FECHA ELABORACION:  10/02/2020
+        </p>      
     </header>
+    <!-- primeros inputs -->
     <form class="formulario">
         <fieldset class="feo1">
         <div class="campo">
@@ -43,6 +43,7 @@
         </div>
     </fieldset>  
     <br>
+    <!-- aqui empiezan las preguntas con los inputs type radio -->
     <fieldset class="feo1">  
 <div class="casa">
     <div class="cas1">
@@ -61,8 +62,7 @@
         <label for="casado" class="label1"><input type="radio" id="casado" name="2. ESTADO CIVIL" class="campo__radio" value="Casado (a)">Casado (a)</label>
         <label for="divorciado" class="label1"><input type="radio" id="divorciado" name="2. ESTADO CIVIL" class="campo__radio" value="Divorciado (a)">Divorciado (a)</label>
     </div>
- </div>
- 
+    </div> 
 </fieldset>
 <br>
 <fieldset class="feo1">
@@ -192,8 +192,8 @@
         </div>
     </div>
 </fieldset>
-   <br>
-   <fieldset class="feo1"> 
+    <br>
+    <fieldset class="feo1"> 
     <div class="casa8">
         <div class="campo">
             <p>15. FUMA </p>
@@ -202,78 +202,67 @@
             <p>PROMEDIO:</p>
             <textarea name="promedio" class="campo__textarea" id="textarea" rows="1"></textarea>
         </div>
-    </div>
-     
+    </div>    
 </fieldset>
 <br>
+<!-- aqui esta la tabla de SI o NO -->
 <p>16. CUALES DE LAS SIGUIENTES MOLESTIAS HA SENTIDO CON FRECUENCIA EN LOS ULTIMOS SEIS (6) MESES.</p>
 <br>
 <table id="miTabla">
     <tr>
         <th>SINTOMA</th>
         <th>Si</th>
-        <th>No</th>
-    
+        <th>No</th>  
     </tr>  
     <tr>
         <th>Dolor de cabeza</th>
         <th><input type="radio" name="respuesta1" id="1" value="Si"></th>
-        <th><input type="radio" name="respuesta1" id="2" value="No"></th>
-   
+        <th><input type="radio" name="respuesta1" id="2" value="No"></th>  
     </tr>
     <tr>
         <th>Dolor de cuello, espalda y cintura</th>
         <th><input type="radio" name="respuesta2" id="3" value="Si"></th>
-        <th><input type="radio" name="respuesta2" id="4" value="No"></th>
-    
+        <th><input type="radio" name="respuesta2" id="4" value="No"></th>   
     </tr>
     <tr>
         <th>Dolores musculares</th>
         <th><input type="radio" name="respuesta3" id="5" value="Si"></th>
         <th><input type="radio" name="respuesta3" id="6" value="No"></th>
-
     </tr>
     <tr>
         <th>Dificultad para algún movimiento</th>
         <th><input type="radio" name="respuesta4" id="7" value="Si"></th>
-        <th><input type="radio" name="respuesta4" id="8" value="No"></th>
-    
+        <th><input type="radio" name="respuesta4" id="8" value="No"></th>   
     </tr>
     <tr>
         <th>Tos frecuente</th>
         <th><input type="radio" name="respuesta5" id="9" value="Si"></th>
         <th><input type="radio" name="respuesta5" id="10" value="No"></th>
-
     </tr>
     <tr>
         <th>Dificultad respiratoria</th>
         <th><input type="radio" name="respuesta6" id="11" value="Si"></th>
-        <th><input type="radio" name="respuesta6" id="12" value="No"></th>
-    
+        <th><input type="radio" name="respuesta6" id="12" value="No"></th>   
     </tr>
     <tr>
         <th>Gastritis, ulcera</th>
         <th><input type="radio" name="respuesta7" id="13" value="Si"></th>
         <th><input type="radio" name="respuesta7" id="14" value="No"></th>
-  
     </tr>
     <tr>
         <th>Otras alteraciones del funcionamiento digestivo</th>
         <th><input type="radio" name="respuesta8" id="15" value="Si"></th>
-        <th><input type="radio" name="respuesta8" id="16" value="No"></th>
-     
+        <th><input type="radio" name="respuesta8" id="16" value="No"></th>     
     </tr>
     <tr>
         <th>Alteraciones del sueño (insomnio, somnolencia)</th>
         <th><input type="radio" name="respuesta9" id="17" value="Si"></th>
         <th><input type="radio" name="respuesta9" id="18" value="No"></th> 
-
     </tr>
     <tr>
         <th>Dificultad para concentrarse</th>
         <th><input type="radio" name="respuesta10" id="19" value="Si"></th>
         <th><input type="radio" name="respuesta10" id="20" value="No"></th>
-
     </tr>
     <tr>
         <th>Estrés</th>
@@ -284,288 +273,244 @@
     <tr>
         <th>Nerviosismo</th>
         <th><input type="radio" name="respuesta12" id="23" value="Si"></th>
-        <th><input type="radio" name="respuesta12" id="24" value="No"></th>
-      
+        <th><input type="radio" name="respuesta12" id="24" value="No"></th>      
     </tr>
     <tr>
         <th>Cansancio mental </th>
         <th><input type="radio" name="respuesta13" id="25" value="Si"></th>
-        <th><input type="radio" name="respuesta13" id="26" value="No"></th>
-       
+        <th><input type="radio" name="respuesta13" id="26" value="No"></th>      
     </tr>
     <tr>
         <th>Palpitaciones cardíacas</th>
         <th><input type="radio" name="respuesta14" id="27" value="Si"></th>
-        <th><input type="radio" name="respuesta14" id="28" value="No"></th>
-        
+        <th><input type="radio" name="respuesta14" id="28" value="No"></th>        
     </tr>
     <tr>
         <th>Dolor en el pecho (angina)</th>
         <th><input type="radio" name="respuesta15" id="29" value="Si"></th>
-        <th><input type="radio" name="respuesta15" id="30" value="No"></th>
-    
+        <th><input type="radio" name="respuesta15" id="30" value="No"></th>    
     </tr>
     <tr>
         <th>Cambios visuales</th>
         <th><input type="radio" name="respuesta16" id="31" value="Si"></th>
-        <th><input type="radio" name="respuesta16" id="32" value="No"></th>
-  
+        <th><input type="radio" name="respuesta16" id="32" value="No"></th> 
     </tr>
     <tr>
         <th>Cansancio, fatiga, ardor o disconfor visual</th>
         <th><input type="radio" name="respuesta17" id="33" value="Si"></th>
-        <th><input type="radio" name="respuesta17" id="34" value="No"></th>
-      
+        <th><input type="radio" name="respuesta17" id="34" value="No"></th>     
     </tr>
     <tr>
         <th>Pitos o ruidos continuos o intermitentes en los oídos</th>
         <th><input type="radio" name="respuesta18" id="35" value="Si"></th>
-        <th><input type="radio" name="respuesta18" id="36" value="No"></th>
-        
+        <th><input type="radio" name="respuesta18" id="36" value="No"></th>        
     </tr>
     <tr>
         <th>Dificultad para oír</th>
         <th><input type="radio" name="respuesta19" id="37" value="Si"></th>
-        <th><input type="radio" name="respuesta19" id="38" value="No"></th>
-      
+        <th><input type="radio" name="respuesta19" id="38" value="No"></th>      
     </tr>
     <tr>
         <th>Sensación permanente de cansancio</th>
         <th><input type="radio" name="respuesta20" id="39" value="Si"></th>
-        <th><input type="radio" name="respuesta20" id="40" value="No"></th>
-       
+        <th><input type="radio" name="respuesta20" id="40" value="No"></th>       
     </tr>
     <tr>
         <th>Alteraciones en la piel</th>
         <th><input type="radio" name="respuesta21" id="41" value="Si"></th>
-        <th><input type="radio" name="respuesta22" id="42" value="No"></th>
-       
+        <th><input type="radio" name="respuesta22" id="42" value="No"></th>       
     </tr>
     <tr>
         <th>Otras alteraciones no anotadas</th>
         <th><input type="radio" name="respuesta23" id="43" value="Si"></th>
-        <th><input type="radio" name="respuesta24" id="44" value="No"></th>
-       
+        <th><input type="radio" name="respuesta24" id="44" value="No"></th>       
     </tr>
 </table>
 <br>
 <br>
+<!-- la segunda tabla SI o NO  -->
 <p>17. EN EL DESARROLLO DE SU LABOR ENCUENTRA LAS SIGUIENTES CONDICIONES:</p>
 <br>
 <table id="miTabla1">
     <tr>
         <th>CONDICION</th>
         <th>Si</th>
-        <th>No</th>
-    
+        <th>No</th>   
     </tr>  
     <tr>
         <th>¿Conoce los riesgos a los que está expuesto en su lugar de trabajo?</th>
         <th><input type="radio" name="respuesta1" id="1" value="Si"></th>
         <th><input type="radio" name="respuesta1" id="2" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Ha recibido capacitación sobre el manejo de los riesgos a los que está expuesto?</th>
         <th><input type="radio" name="respuesta2" id="3" value="Si"></th>
         <th><input type="radio" name="respuesta2" id="4" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Considera que la iluminación de su puesto de trabajo es adecuada?</th>
         <th><input type="radio" name="respuesta3" id="5" value="Si"></th>
-        <th><input type="radio" name="respuesta3" id="6" value="No"></th>
-   
+        <th><input type="radio" name="respuesta3" id="6" value="No"></th>  
     </tr>
     <tr>
         <th>¿La temperatura de su sitio de trabajo le ocasiona molestias?</th>
         <th><input type="radio" name="respuesta4" id="7" value="Si"></th>
         <th><input type="radio" name="respuesta4" id="8" value="No"></th>
-
     </tr>
     <tr>
         <th>¿En su sitio de trabajo hay presencia de polvo en el ambiente?</th>
         <th><input type="radio" name="respuesta5" id="9" value="Si"></th>
         <th><input type="radio" name="respuesta5" id="10" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Considera que los pisos, techos, paredes, escaleras, presentan riesgo para su salud?</th>
         <th><input type="radio" name="respuesta6" id="11" value="Si"></th>
         <th><input type="radio" name="respuesta6" id="12" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Existen cables sin entubar, empalmes defectuosos, tomas eléctricas sobrecargadas, trasformadores defectuosos?</th>
         <th><input type="radio" name="respuesta7" id="13" value="Si"></th>
         <th><input type="radio" name="respuesta7" id="14" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Los sitios destinados para el almacenamiento son suficientes, poseen espacio adecuado y los insumos y productos se encuentran bien apilados?</th>
         <th><input type="radio" name="respuesta8" id="15" value="Si"></th>
-        <th><input type="radio" name="respuesta8" id="16" value="No"></th>
-    
+        <th><input type="radio" name="respuesta8" id="16" value="No"></th>   
     </tr>
     <tr>
         <th>¿Las tareas que desarrolla le exigen realizar movimientos repetitivos?</th>
         <th><input type="radio" name="respuesta9" id="17" value="Si"></th>
         <th><input type="radio" name="respuesta9" id="18" value="No"></th> 
- 
     </tr>
     <tr>
         <th>¿Permanece en una misma posición (sentado o de pie) durante más del 60% de la jornada de trabajo?</th>
         <th><input type="radio" name="respuesta10" id="19" value="Si"></th>
         <th><input type="radio" name="respuesta10" id="20" value="No"></th>
-
     </tr>
     <tr>
         <th>¿La altura de la superficie de trabajo es la adecuada a su estatura, la silla y la labor que realiza?</th>
         <th><input type="radio" name="respuesta11" id="21" value="Si"></th>
         <th><input type="radio" name="respuesta11" id="22" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Tiene espacio suficiente para variar la posición de las piernas y rodillas?</th>
         <th><input type="radio" name="respuesta12" id="23" value="Si"></th>
         <th><input type="radio" name="respuesta12" id="24" value="No"></th>
-
     </tr>
     <tr>
         <th>¿La silla es cómoda y permite ajustarlo a su medida?</th>
         <th><input type="radio" name="respuesta13" id="25" value="Si"></th>
         <th><input type="radio" name="respuesta13" id="26" value="No"></th>
-
     </tr>
     <tr>
         <th>¿En general dispone de espacio suficiente  para realizar el trabajo con amplitud?</th>
         <th><input type="radio" name="respuesta14" id="27" value="Si"></th>
         <th><input type="radio" name="respuesta14" id="28" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Su trabajo le exige mantenerse frente a la pantalla del computador más del 50% de la jornada?</th>
         <th><input type="radio" name="respuesta15" id="29" value="Si"></th>
-        <th><input type="radio" name="respuesta15" id="30" value="No"></th>
-      
+        <th><input type="radio" name="respuesta15" id="30" value="No"></th>      
     </tr>
     <tr>
         <th>¿Al finalizar la jornada laboral, el cansancio que se siente podría calificarse de “normal”?</th>
         <th><input type="radio" name="respuesta16" id="31" value="Si"></th>
         <th><input type="radio" name="respuesta16" id="32" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Considera adecuada la distribución del horario de trabajo, de los turnos, de las horas de descanso, horas extras y pausas?</th>
         <th><input type="radio" name="respuesta17" id="33" value="Si"></th>
         <th><input type="radio" name="respuesta17" id="34" value="No"></th>
-
     </tr>
     <tr>
         <th>¿El trabajo que desempeña le permite  aplicar sus habilidades y conocimientos?</th>
         <th><input type="radio" name="respuesta18" id="35" value="Si"></th>
         <th><input type="radio" name="respuesta18" id="36" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Su jefe le pide opinión sobre asuntos relacionados con su trabajo?</th>
         <th><input type="radio" name="respuesta19" id="37" value="Si"></th>
-        <th><input type="radio" name="respuesta19" id="38" value="No"></th>
-    
+        <th><input type="radio" name="respuesta19" id="38" value="No"></th>   
     </tr>
     <tr>
         <th>¿La empresa cuenta con agua potable?</th>
         <th><input type="radio" name="respuesta20" id="39" value="Si"></th>
         <th><input type="radio" name="respuesta20" id="40" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Existe buen manejo de basuras y desechos?</th>
         <th><input type="radio" name="respuesta21" id="41" value="Si"></th>
         <th><input type="radio" name="respuesta21" id="42" value="No"></th>
-
     </tr>
     <tr>
         <th>¿El ruido ambiental le permite mantener una conversación con los compañeros sin elevar  el tono de voz?</th>
         <th><input type="radio" name="respuesta22" id="43" value="Si"></th>
         <th><input type="radio" name="respuesta22" id="44" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Existe en su sitio de trabajo riesgos de incendio o explosión?</th>
         <th><input type="radio" name="respuesta23" id="45" value="Si"></th>
         <th><input type="radio" name="respuesta23" id="46" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Puede abandonar el trabajo por unos minutos sin necesidad que lo sustituyan?</th>
         <th><input type="radio" name="respuesta24" id="47" value="Si"></th>
-        <th><input type="radio" name="respuesta24" id="48" value="No"></th>
-      
+        <th><input type="radio" name="respuesta24" id="48" value="No"></th>      
     </tr>
     <tr>
         <th>¿Su trabajo lo realiza al aire libre?</th>
         <th><input type="radio" name="respuesta25" id="49" value="Si"></th>
-        <th><input type="radio" name="respuesta25" id="50" value="No"></th>
-   
+        <th><input type="radio" name="respuesta25" id="50" value="No"></th>   
     </tr>
     <tr>
         <th>¿Las tareas que realiza le producen  “sensación de peligrosidad”?</th>
         <th><input type="radio" name="respuesta26" id="51" value="Si"></th>
-        <th><input type="radio" name="respuesta26" id="52" value="No"></th>
- 
+        <th><input type="radio" name="respuesta26" id="52" value="No"></th> 
     </tr>
     <tr>
         <th>¿Su labor le exige levantar y transportar cargas?</th>
         <th><input type="radio" name="respuesta27" id="53" value="Si"></th>
         <th><input type="radio" name="respuesta27" id="54" value="No"></th>
-
     </tr>
     <tr>
         <th>¿Cuenta con ayudas mecánicas para realizar dicha labor?</th>
         <th><input type="radio" name="respuesta28" id="55" value="Si"></th>
         <th><input type="radio" name="respuesta28" id="56" value="No"></th>
-
     </tr>
     <tr>
         <th>¿En su puesto de trabajo necesita utilizar elementos de protección personal? Cuales</th>
         <th><input type="radio" name="respuesta29" id="57" value="Si"></th>
-        <th><input type="radio" name="respuesta29" id="58" value="No"></th>
-  
+        <th><input type="radio" name="respuesta29" id="58" value="No"></th>  
     </tr>
     <tr>
         <th>¿En el sitio de trabajo manipula o está en contacto con productos químicos?</th>
         <th><input type="radio" name="respuesta30" id="59" value="Si"></th>
-        <th><input type="radio" name="respuesta30" id="60" value="No"></th>
-  
+        <th><input type="radio" name="respuesta30" id="60" value="No"></th> 
     </tr>
     <tr>
         <th>¿Manipula productos o desechos de origen animal o vegetal?</th>
         <th><input type="radio" name="respuesta31" id="61" value="Si"></th>
-        <th><input type="radio" name="respuesta31" id="62" value="No"></th>
-     
+        <th><input type="radio" name="respuesta31" id="62" value="No"></th>     
     </tr>
     <tr>
         <th>¿Las máquinas y herramientas que utiliza en el desempeño de su labor producen vibración?</th>
         <th><input type="radio" name="respuesta32" id="63" value="Si"></th>
-        <th><input type="radio" name="respuesta32" id="64" value="No"></th>
-       
+        <th><input type="radio" name="respuesta32" id="64" value="No"></th>       
     </tr>
     <tr>
         <th>¿Su labor genera riesgos mecánicos proyección de partículas, atrapamiento, manejo de elementos contaminantes, punzantes, calientes abrasivas?</th>
         <th><input type="radio" name="respuesta33" id="65" value="Si"></th>
-        <th><input type="radio" name="respuesta33" id="66" value="No"></th>
-     
+        <th><input type="radio" name="respuesta33" id="66" value="No"></th>    
     </tr>
     <tr>
         <th>Si está a cargo de alguna máquina o herramienta, ¿tiene los mandos dispuestos  de tal manera que no necesite  realizar movimientos forzados para accionarlo?</th>
         <th><input type="radio" name="respuesta34" id="67" value="Si"></th>
-        <th><input type="radio" name="respuesta34" id="68" value="No"></th>
-       
+        <th><input type="radio" name="respuesta34" id="68" value="No"></th>      
     </tr>
 </table>
 <br>
 
+<!-- el boton para enviar al formulario -->
         <div class="campo___input">
             <button  class="btn" onclick="validarFormulario()">ENVIAR</button>
         </div>

@@ -13,7 +13,7 @@
       src="https://kit.fontawesome.com/41bcea2ae3.js"
       crossorigin="anonymous"
     ></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css" />
   </head>
   <body class="section">
@@ -56,8 +56,9 @@
     <main>
       <div class="container__cover">
         <div class="cover">
-         
-          <div class="text">
+          <div class="text" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <h1 class="text2">Bienvenidos</h1>
             <div class="text">    
             <h2>     
@@ -73,17 +74,18 @@
                 personal, (talento humano).
               </p>
             </h2> 
-       
           
 
             <!-- <input type="button" value="Leer Más"> -->
           </div>
         </div>
-          <div class="svg">
+          <div class="svg" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <!-- <img src="images/developer_activity.svg" alt=""> -->
             <img src="icons/bienvenidos-removebg-preview.png" alt="">
           <!-- </div> 
-           <div id="container"> 
+          <div id="container"> 
             <img src="images/logo-magtimus-v2.3-1.png"  height="500"/>
           </div>
           <input  id="inImg" type="file">-->
@@ -94,9 +96,7 @@
           <input id="input" type="file"> -->
         
         </div>
-       
         </div> 
-       
       </div>
       
       
@@ -119,4 +119,11 @@
       reader.readAsDataURL(event.target.files[0]);
     };
   </script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+   AOS.init({
+     duration: 2000,
+     one: true
+   });
+ </script>
 </html>

@@ -22,14 +22,14 @@ body{
 font-family: 'Mooli', sans-serif;
 font-family: 'Poppins', sans-serif;
     background-color:#fbedca ; 
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-image: url(../images/Background-page.svg);  
     /* background-image: url(../icons/page-turner.svg); */
 }
-
+/* este es el boton que te hace pasar para la SIGUIENTE secion */
 .btn{
     display: inline-block;
     margin-top: 35px;
@@ -45,6 +45,7 @@ font-family: 'Poppins', sans-serif;
     -ms-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
 }
+/* esto hace que el boton tenga una animacion */
 .btn:active{
     transform: scale(0.96);
     -webkit-transform: scale(0.96);
@@ -76,10 +77,9 @@ header{
 
 
 .container__menu{
-   
     max-width: 1200px;
     height: 100%;
-     margin: auto; 
+    margin: auto; 
     display: flex;
     justify-content: space-between;
 }
@@ -297,7 +297,6 @@ nav ul li ul li a:hover{
     animation: move-vector 4s linear infinite;
     -webkit-animation: move-vector 4s linear infinite;
     margin: 30%;
-  
 }
 
 @keyframes move-vector {
@@ -400,15 +399,13 @@ nav ul li ul li a:hover{
         border-radius: none;
         color: #F6615D;
     }
-
-     .menu nav  img{
+.menu nav  img{
         display:block;
         width: 200px;
         position: absolute;
         top: 50px;
         left: 15px;
-
-    }
+}
 
     #back_menu{
         position: fixed;
@@ -560,17 +557,6 @@ nav ul li ul li a:hover{
 a{
         color:  #fff; 
 }
-/* .tar{
-  
-    list-style: none;
-    cursor: pointer;
-    padding: 20px;
-    transition: all 0.3s ease 0s;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-} */
 
 .ta{
     
@@ -599,8 +585,44 @@ a{
 .ta .tar:hover{
     background: #000;
     color: #fff;
-  }
-  .pruebas {
+}
+.pruebas {
     position: relative;
-  }
+}
+
+/* TABLA AGENTES */
+.tabla{
+    width: 100%;
+    border-collapse: collapse ;
+    float: right;
+    border: 1px solid #909090;
+
+
+}
+.tabla{
+    width: 50%;
+    position: relative;
+    
+}
+
+.tabla, tr {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #909090;
+    text-align:center;
+}
+.tabla{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .tabla{
+        display: block;
+    }
+
+    
+    .img{
+        display: none;
+    }
+}
 

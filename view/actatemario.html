@@ -13,21 +13,19 @@
 <title>ACTADETEMARIO</title>
 </head>
 <body>
-    
+    <!-- encabezado dentro del fieldset  -->
     <div class="container">  <fieldset class="feo">
         <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
             <header class="header">
                 <div class="q">  <h1>INDUCCION</h1>  <h1>REINDUCCION</h1></div>
         <p class="header__descripcion centrar centrar-texto">ACTA DE TEMARIO RECIBIDO EN LA INDUCCION Y/O REINDUCCION</p>
-        <p class="header__descripcion centrar centrar-texto"> CODIGO:  SST-F-22
-          
-          <br>  VERSION:  01
+        <p class="header__descripcion centrar centrar-texto"> CODIGO:  SST-F-22         
+        <br>  VERSION:  01
             <br>FECHA ELABORACION:  10/02/2020
-        </p>
-      
+        </p>     
     </header>
-    <form class="formulario">
-      
+<!-- aqui inicia el formulario -->
+    <form class="formulario">      
         <fieldset class="feo1">
         <div class="campo">
             <label for="nombre">NOMBRE:</label>
@@ -53,7 +51,7 @@
     <br>
     <p>Selecione una las casillas (SI o NO), los temas que recibió en la (re)inducción.</p>
 
-
+<!-- la tabla de SI o NO -->
     <table id="miTabla">
         <tr>
             <th rowspan="2">Tema</th>
@@ -156,9 +154,15 @@
     </table>
 <br>
 
-<p class="p1">Yo, <input type="text" id="yo" name="yo" required class="xd"> identificado con C.C. No <input type="text" id="CC" name="CC" required class="xd"> de <input type="text" id="de" name="de" required class="xd"> trabajador de la empresa ALIANZA ESTRENO S.A.S. desempeño el cargo de <input type="text" id="cargo" required class="xd"  > declaro que he recibido por parte de la empresa la inducción/reinducción correspondiente a la descripción de la empresa y el Sistema de Gestión en Seguridad y Salud en el Trabajo, la cual he recibido, comprendido y me comprometo a cumplir las normas internas de la organización</p>
+<!-- aqui hay un parrafo y cuatro inputs para capturar sus datos -->
+<p class="p1">Yo, 
+    <input type="text" id="yo" name="yo" required class="xd">  identificado con C.C. No 
+    <input type="text" id="CC" name="CC" required class="xd"> de 
+    <input type="text" id="de" name="de" required class="xd"> trabajador de la empresa ALIANZA ESTRENO S.A.S. desempeño el cargo de 
+    <input type="text" id="cargo" required class="xd"  > declaro que he recibido por parte de la empresa la inducción/reinducción correspondiente a la descripción de la empresa y 
+    el Sistema de Gestión en Seguridad y Salud en el Trabajo, la cual he recibido, comprendido y me comprometo a cumplir las normas internas de la organización</p>
 
-
+<!-- el boton para enviar el formulario -->
 <div class="campo___input">
         <button class="btn" id="" onclick="procesarDatos()">ENVIAR</button>
     </div>

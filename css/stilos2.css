@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     min-height: 100vh;
 }
 
@@ -123,7 +123,7 @@ body{
     -o-transition: all 400ms ease;
 }
 
- .ff .front {
+.ff .front {
     transform: perspective(600) rotateY(180deg);
     -webkit-transform: perspective(600) rotateY(180deg);
     -moz-transform: perspective(600) rotateY(180deg);
@@ -138,14 +138,14 @@ body{
     -o-transform: perspective(600) rotateY(360deg) ;
 }  
 
- .sc .btn {
+.sc .btn {
     align-items: center;
     display: flex;
     position: relative;
     justify-content: center;
     border: none;
- }
- .sc .btn .btn1{
+}
+.sc .btn .btn1{
     border: none;
     background: white;
     border-radius: 90px;
@@ -154,8 +154,8 @@ body{
     -ms-border-radius: 90px;
     -o-border-radius: 90px;
 }
- .sc .btn .btn1 img{
+.sc .btn .btn1 img{
     width: 50px;
     height: 50px;
- }
+}
 

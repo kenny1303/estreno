@@ -1,4 +1,5 @@
 
+    //ESTA FUNCION LO QUE HACE ES QUE TOMA LOS DATOS DE LOS PRIMEROS IMPUTS
     document.addEventListener('DOMContentLoaded', function() {
         const formulario = document.querySelector('.formulario');
         formulario.addEventListener('submit', function(e) {
@@ -26,11 +27,10 @@
             // Mostrar datos en el alert
             alert(JSON.stringify(data, null, 2));
 
-           
         });
     });
-   
     
+    //ESTA FUNCION LO QUE HACE ES QUE EL TEXTAREA SE AGRANDE DEPENDIENDO LO QUE SE ESCRIBA EN EL MISMO
     function autoResize() {
         const textareas = document.querySelectorAll(".campo__textarea");
         textareas.forEach(function(textarea) {
@@ -44,6 +44,7 @@
         textarea.addEventListener("input", autoResize);
     });
 
+    //ESTA FUNCION LO QUE HACE ES PROCESAR LOS DATOS DE LOS INPUTS Y MOSTRARLOS EN EL ALERT
     function procesarDatos() {
         var yo = document.getElementById("yo").value;
         var CC = document.getElementById("CC").value;
@@ -102,13 +103,6 @@ function procesarDatos() {
     alert("¡GRACIAS POR TU APOYO!" );
     return true;   
 }
-
-// function procesarDatos() {
-//     // Aquí pondrías el código para enviar el formulario
-
-//     // Después de enviar el formulario, mostrar el mensaje de agradecimiento en un alert
-//     alert("¡GRACIAS POR TU APOYO!");
-// }
 
 var validarRadios = function() {
     var opciones = document.getElementsByName('sexo'),

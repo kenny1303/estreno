@@ -13,7 +13,7 @@
 <title>PROCEDIMIENTO TALENTO HUMANO</title>
 </head>
 <body>
-    
+    <!-- aqui inicia el formulario con el fieldset -->
     <div class="container">  <fieldset class="feo">
         <legend> <img src="../icons/LOGO- SURTIDORA ESTRENO.png" alt="" class="imagen-responsive"></legend>
             <header class="header">
@@ -21,10 +21,9 @@
         <p class="header__descripcion centrar centrar-texto">2023</p>
         <p class="header__descripcion centrar centrar-texto"> FORMATO ENCUESTA NECESIDADES DE FORMACION EN HABILIDADES BLANDAS         
         </p>
-      
     </header>
+    <!-- los primeros inputs -->
     <form class="formulario">
-      
         <fieldset class="feo1">
         <div class="campo">
             <label for="nombre">NOMBRE JEFE INMEDIATO-LIDER-COORDINADOR:</label>
@@ -40,7 +39,7 @@
         dentro del programa de crecimiento y desarrollo de la organizacion, para el año 2023, favor selecionar el tema de necesidad o interes:
     </p>
 
-
+<!-- la tabla SI o No -->
     <table id="miTabla">
         <tr>
             <th rowspan="2">TEMAS SUGERIDOS</th>
@@ -172,14 +171,14 @@
         </tr>
     </table>
 <br>
-
-<!-- <p class="p1">Yo, <input type="text" id="yo" name="yo" required class="xd"> identificado con C.C. No <input type="text" id="CC" name="CC" required class="xd"> de <input type="text" id="de" name="de" required class="xd"> trabajador de la empresa ALIANZA ESTRENO S.A.S. desempeño el cargo de <input type="text" id="cargo" required class="xd"  > declaro que he recibido por parte de la empresa la inducción/reinducción correspondiente a la descripción de la empresa y el Sistema de Gestión en Seguridad y Salud en el Trabajo, la cual he recibido, comprendido y me comprometo a cumplir las normas internas de la organización</p> -->
+<!-- un parrafo y un textarea  -->
 <p>Dentro de Tu Equipo, has identificado si algun colaborador requiere de acompañamiento o Asesoria Psicologica, favor indicar el numero de trabajadores que necesitan el abordaje:</p>
 <br>
 <p>SUGERENCIAS:</p>
 <textarea name="sugerencias" class="campo__textarea" id="sugerencias" rows="1"></textarea>
 <br>
 <br>
+<!-- el boton que envia el formulario -->
 <div class="campo___input">
         <button class="btn" id="" onclick="procesarDatos()">ENVIAR</button>
     </div>

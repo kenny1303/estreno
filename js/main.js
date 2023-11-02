@@ -1,3 +1,4 @@
+// SE SUPONE QUE ESTO ES PARA LA TABULACION Y LA GRAFICA PASTEL PERO NO ME SIRVIO PARA UN CARAJO
 const ctx = document.getElementById('myChart')
 const names = ['Carlos', 'Pedro', 'Maria', 'Rosa', 'Juan']
 const ages = [24, 10, 54, 51, 15]

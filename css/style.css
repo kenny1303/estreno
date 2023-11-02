@@ -44,9 +44,6 @@ section .card .box{
     transform-style: preserve-3d;
     transition: 1s ease;
 }
-/* section .card:hover .box{
-     transform:rotateY(180deg);
-} */
 
 section .card .box .imgBx img{
     position: absolute;
@@ -90,33 +87,4 @@ section .card .box .contentBx div p {
     color: #fff;
     font-size: 16px;
 }
-   
-
-/* .container{
-    display: grid;
-    grid-template-columns: 30%;
-     grid-gap: 1em; 
-     text-align: center;
-  
-     
-  
-}
-img{
-    max-width: 100%;
-}
-p{
-    font-size: 36px;
-    font-weight: 60;
-    height: 0;
-    margin-bottom: 19px;
-}
-
-
-.section{
-    font-family: 'Croissant One', cursive;
-font-family: 'Mooli', sans-serif;
-font-family: 'Mukta', sans-serif;
-font-family: 'Poppins', sans-serif;
-} */
-
 

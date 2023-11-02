@@ -1,3 +1,4 @@
+//DESDE AQUI SE EMPIEZA LA FUNCIONPARA VERIFICAR LAS RESPUESTAS DE LA PRUEBA
 //arreglo que contiene las respuestas correctas
 let correctas = [3,4,4,5,2,2,2,1,2,1];
 
@@ -13,14 +14,13 @@ function respuesta(num_pregunta, seleccionada){
 }
 
 //funcion que compara los arreglos para saber cuantas estuvieron correctas
- function corregir(){
-     cantidad_correctas = 0;
+function corregir(){
+    cantidad_correctas = 0;
     for( i=0; i < correctas.length;i++){
         if(correctas[i]==opcion_elegida[i]){
-             cantidad_correctas++;
+            cantidad_correctas++;
         }
-     }
-     
+        }  
     document.getElementById("resultado").innerHTML = cantidad_correctas;
     var nombre = document.getElementById('nombre').value;
     var cargo = document.getElementById('cargo').value;
@@ -28,14 +28,15 @@ function respuesta(num_pregunta, seleccionada){
     var fecha = document.getElementById('fecha').value;
 
    // Validar que todos los campos requeridos estén completos
-   if (nombre && cargo && lugar && fecha) {
+    if (nombre && cargo && lugar && fecha) {
        // Mostrar los datos en un alert
-       alert("NOMBRE: " + nombre + "\nCARGO: " + cargo + "\nLUGAR: " + lugar + "\nFECHA: " + fecha);
+        alert("NOMBRE: " + nombre + "\nCARGO: " + cargo + "\nLUGAR: " + lugar + "\nFECHA: " + fecha);
     } else {
         alert("Por favor, complete todos los campos requeridos.");
-   }
-   
+    }
+    
 }
+
 
 function ocultarYRecargar() {
     // Obtener el número de intentos almacenado en localStorage o establecerlo en 0 si no existe

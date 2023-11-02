@@ -1,3 +1,4 @@
+// LA FUNCION PARA EL MENU DE HAMBURGUESA
 document.getElementById("btn_menu").addEventListener("click", mostrar_menu);
 
 document.getElementById("back_menu").addEventListener("click", ocultar_menu);
