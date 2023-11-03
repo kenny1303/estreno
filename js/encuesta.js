@@ -134,14 +134,4 @@ var validarRadios = function() {
   function irAInicio() {
     // Redirigir al usuario a la página de inicio
     window.location.href="../index.html";
-  }
-
-
-
-
-
-  
- 
-
-
-    
+  }   

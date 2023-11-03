@@ -309,6 +309,15 @@ h2{
 }
 
 .xd{
-  font-size: 18px;
-  color: #000;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:black;
+  font-size: 15px;
+  font-weight: 600;
+  box-sizing: border-box;
 }
+
+
